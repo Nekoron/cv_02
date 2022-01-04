@@ -1,0 +1,194 @@
+  body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 1rem;
+    color: #40514E;
+    line-height: 1.5;
+  }
+
+  h1 {
+    font-family: 'The Nautigal', cursive;
+    font-size: 5rem;
+    color: #66BFBF;
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 2rem;
+    color: #66BFBF;
+    font-weight: 100;
+    padding-bottom: 10px;
+  }
+
+  h3 {
+    color: #66BFBF;
+  }
+
+  .footer-link {
+    color: #66BFBF;
+  }
+
+  .titleDescription {
+    font-size: 1rem;
+  }
+
+  p {
+    margin: 0;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 1rem;
+    font-weight:100;
+    /* text-align:left; */
+  }
+
+  li {
+    text-align: left;
+    line-height: 1.5;
+  }
+
+  hr {
+    width: 5%;
+    border-top: dotted 5px;
+    color: gray;
+
+  }
+
+/*----------top container-----------*/
+
+  .top-container {
+    position: relative;
+    background-color: #C2FFF9;
+    padding: 100px 0 0;
+    margin: 0;
+
+  }
+
+  .first-cloud {
+    position: absolute;
+    left: 10%;
+    bottom: 55%;
+  }
+
+  .second-cloud {
+    position: absolute;
+    right: 10%;
+    top: 10%;
+
+  }
+
+
+  /*----------middle container-----------*/
+
+  .workHistory {
+    margin-bottom: 30px;
+  }
+
+  .profile-picture {
+    width: 25%;
+    margin-bottom: 25px;
+
+  }
+
+
+  .profile {
+    width: 80%;
+    height: auto;
+    margin: 50px auto 50px auto;
+
+
+
+  }
+
+  .profile-message {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .workHistory-row {
+    width: 80%;
+    margin: 0 auto;
+
+  }
+
+  .skills {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+  }
+
+
+  .skill-row {
+    min-height: 125px;
+    margin-bottom: 50px;
+  }
+
+  .skill-image1 {
+    width: 25%;
+    margin: 0;
+    max-height: 125px;
+    max-width: 125px;
+
+  }
+
+
+  .skill-image2 {
+    width: 25%;
+    max-height: 125px;
+    max-width: 125px;
+
+  }
+
+  .round {
+    width: 20%;
+  }
+
+  /* .contact-me {
+    height: 200px;
+  } */
+  .getInTouch {
+    margin: 30px auto;
+    margin-bottom: 30px;
+    padding: 0;
+  }
+
+
+
+  /*----------bottom container-----------*/
+
+
+  .btn {
+  background: #11cdd4;
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  color: #ffffff;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+  .bottom-container {
+    background-color: #516BEB;
+    margin-top: 50px;
+    height: 200px;
+    padding-top: 50px;
+  }
+
+  a:hover {
+    color: #30e3cb;
+  }
+
+  .credit {
+    margin-top: 100px;
+  }
